@@ -1,0 +1,34 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: sticky;
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    padding: 0 2rem;
+    position: fixed;
+}
+
+  .cabecalho-container {
+    position: relative;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-top: 15px;
+  }
+  
+  .text-cabecalho {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+  }
